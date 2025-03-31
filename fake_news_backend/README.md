@@ -38,7 +38,7 @@ ENV=production
 OPENAI_API_KEY=
 ALLOWED_SOURCES=bbc,cnn,espn
 VALID_CATEGORIES=general,business,health,science,sports,technology
-NEWS_WEBSITE_API_KEY=
+NEWS_WEBSITE_API_KEY=554f9ee835004668b925e7ac8add014f
 NEWS_WEBSITE_BASE_URL=https://newsapi.org/v2/top-headlines?sources={source}&apiKey=
 NEWS_WEBSITE_CATEGORY_BASE_URL=https://newsapi.org/v2/top-headlines?category={category}&apiKey=
 
