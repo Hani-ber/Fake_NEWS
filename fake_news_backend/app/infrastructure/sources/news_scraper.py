@@ -17,5 +17,5 @@ class NEWSAPIScraper:
                 url = article['url']
                 content=article['content']
                 image_url=article['urlToImage']
-                articles.append(NewsArticle(id=url, title=title, url=url,description=content,image_url=image_url, source=source,category=category))
+                articles.append(NewsArticle(id=url, title=title, url=url,description=content,image_url=image_url, source=source,category=category or ''))
         return articles
