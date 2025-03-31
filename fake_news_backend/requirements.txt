@@ -1,0 +1,8 @@
+python-dotenv
+openai
+beautifulsoup4
+requests
+pydantic
+fastapi
+uvicorn
+httpx

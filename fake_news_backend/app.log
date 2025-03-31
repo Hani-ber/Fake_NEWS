@@ -1,0 +1,65 @@
+2025-03-31 15:51:06,240 - INFO - call_rest_api_async_get
+2025-03-31 15:51:06,958 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=health&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:51:11,321 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:51:15,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:51:19,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:51:22,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:51:22,905 - INFO - call_rest_api_async_get
+2025-03-31 15:51:23,825 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=health&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:51:27,945 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:51:31,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:51:34,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:53:35,411 - INFO - call_rest_api_async_get
+2025-03-31 15:53:36,000 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=business&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:53:40,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:53:45,556 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:53:48,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:53:51,704 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:53:51,709 - INFO - call_rest_api_async_get
+2025-03-31 15:53:52,615 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=business&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:53:56,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:02,328 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:05,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:09,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:09,444 - INFO - call_rest_api_async_get
+2025-03-31 15:54:10,368 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=business&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:54:14,101 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:18,166 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:21,286 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:54:25,489 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 15:57:39,039 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 15:57:39,914 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:57:39,923 - ERROR - Error processing source bbc-news: 'Data'
+2025-03-31 15:58:16,105 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=sports&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 15:58:16,772 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=sports&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:58:16,780 - ERROR - Unexpected error accessing https://newsapi.org/v2/top-headlines?category=sports&apiKey=554f9ee835004668b925e7ac8add014f: object dict can't be used in 'await' expression
+2025-03-31 15:58:16,781 - ERROR - Error processing source bbc-news: cannot access local variable 'articles' where it is not associated with a value
+2025-03-31 15:58:28,679 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=business&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 15:58:29,615 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=business&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:58:29,626 - ERROR - Unexpected error accessing https://newsapi.org/v2/top-headlines?category=business&apiKey=554f9ee835004668b925e7ac8add014f: object dict can't be used in 'await' expression
+2025-03-31 15:58:29,626 - ERROR - Error processing source bbc-news: cannot access local variable 'articles' where it is not associated with a value
+2025-03-31 15:58:54,302 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=sports&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 15:58:55,199 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=sports&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:59:38,155 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 15:59:39,059 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 15:59:41,677 - ERROR - Error processing source bbc-news: 'Data'
+2025-03-31 15:59:54,704 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=technology&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 15:59:55,221 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=technology&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 16:01:44,405 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 16:01:45,048 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 16:01:51,446 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:01:54,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:01:56,877 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:01,479 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:01,482 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 16:02:02,061 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 16:02:04,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:08,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:11,933 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:18,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:18,926 - INFO - Calling API: https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f
+2025-03-31 16:02:19,416 - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?category=science&apiKey=554f9ee835004668b925e7ac8add014f "HTTP/1.1 200 OK"
+2025-03-31 16:02:22,373 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:25,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:28,621 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 16:02:34,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
